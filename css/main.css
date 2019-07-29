@@ -18,7 +18,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin: 25px 25px 0 25px;
-    position: relative; 
+    position: relative;
+    border-radius: 40px; 
 }
 
 .container2 {
@@ -30,6 +31,7 @@
     background-size: contain;
     margin: 25px 25px 0 25px;
     position: relative;
+    border-radius: 40px
 }
 
 .container3 {
@@ -41,6 +43,7 @@
     background-size: contain;
     margin: 25px 25px 0 25px;
     position: relative;
+    border-radius: 40px
 }
 
 .text-container {
@@ -50,18 +53,20 @@
 
 p {
     font-family: 'intro', sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     color: white;
     padding: 260px 0 0 15px;
-    position: absolute 
+    position: absolute;
 }
 
 h3 {
     font-family: 'OpenSans', sans-serif;
-    font-size: 42px;
+    font-size: 45px;
     color: rgb(0, 153, 255);
     padding: 280px 0 0 15px;
     position: absolute; 
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
 }
 
 .container-bottom {
@@ -69,9 +74,10 @@ h3 {
     width: 570px;
     height: 522px;
     position: absolute;
-    margin: 378px 0 0 0;
+    margin: 380px 0 0 0;
     display: flex;
     background: linear-gradient(180deg, #ffffff 0%, #15afeb 25%);
+    border-radius: 40px;
 }
 
 .container-bottom-text {
@@ -90,6 +96,33 @@ p.pbottom {
     font-size: 13px;
     color: white;
     margin: -254px 0 0 70px;
+    text-align: center; 
+}
+
+p.pbottom1 {
+    width: 33%;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    color: white;
+    margin: -248px 0 0 28px;
+    text-align: center; 
+}
+
+p.pbottom2 {
+    width: 33%;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    color: white;
+    margin: -248px 0 0 173px;
+    text-align: center; 
+}
+
+p.pbottom3 {
+    width: 33%;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    color: white;
+    margin: -248px 0 0 324px;
     text-align: center; 
 }
 
@@ -124,16 +157,5 @@ p.pbottom {
 #button:hover {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
+    transform: scale(1.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
