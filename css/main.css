@@ -7,8 +7,7 @@
     height: 100vh;
     background-color: rgb(39, 39, 39);
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .container {
@@ -21,36 +20,26 @@
 
 }
 
-
-.img1 {
+.img_container {
     width: 100%;
     height: 300px;
     position: absolute;
-    background-image: url(../img/family.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 40px 40px 0 0;
+}
+
+
+.img1 {
+    background-image: url(../img/family.jpg);
 }
 
 .img2 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
     background-image: url(../img/work.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 40px 40px 0 0;
 }
 
 .img3 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
     background-image: url(../img/friendswork.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    justify-content: center;
-    border-radius: 40px 40px 0 0;
 }
 
 .paket {
@@ -79,34 +68,36 @@
     background-color: #0ea7e4;
     border-radius: 0 0 40px 40px;
     margin: 300px 0 0 0;
+    background: linear-gradient(180deg, #33e0f5 0%, #02a1e3 100%);
  }
 
- h3.number {
-     width: 100%;
+ .number {
+    width: 100%;
     font-family: 'OpenSans', sans-serif;
     color: white;
-    position: absolute;
     font-size: 48px;
-    margin: 15px 0 0 0;
+    margin: 0 0 0 0;
     text-align: center;
-    word-spacing: 120px;
  }
 
- .container-bottom-text2 {
-     width: 400px;
+ .container-bottom-text {
+    width: 100%;
+    height: 35%;
     font-family: 'intro', sans-serif;
     font-size: 13px;
     color: white;
     margin: 0 0 0 0;
     position: absolute;
-    word-spacing: 40px;
     margin: 0 0 0 0;
     display: flex;
  }
 
- p {
-    margin: 66px 35px 0 43px;
+ .text {
     text-align: center;
+    font-family: 'intro', sans-serif;
+    font-size: 12px;
+    color: white;
+    
  }
 
  input {
@@ -122,11 +113,11 @@
     margin: 320px 0 0 100px;
     background-color: #ffffff;
     border: none;
+    transition: 0.3s;
  }
 
  input:hover {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
     transform: scale(1.2);
 }
 
@@ -138,4 +129,10 @@
     margin: 245px 0 0 0;
     width: 100%;
     text-align: center;
+}
+
+.wrapper-item {
+    padding: 25px;
+    width: 100px;
+    height: 120px;
 }
