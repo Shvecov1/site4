@@ -12,7 +12,7 @@
 
 .container {
     height: 700px;
-    width: 450px;
+    width: 420px;
     background-color: aliceblue;
     border-radius: 40px;
     margin: 15px 0 0 15px;
@@ -111,27 +111,6 @@
     
  }
 
- input {
-    cursor: pointer;
-    width: 250px;
-    height: 60px;
-    color: #299caf;
-    font-family: 'OpenSans', sans-serif;
-    font-size: 28px;
-    border-radius: 4px;
-    text-align: center;
-    border-radius: 40px;
-    margin: 320px 0 0 100px;
-    background-color: #ffffff;
-    border: none;
-    transition: 0.3s;
- }
-
- input:hover {
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
-    transform: scale(1.2);
-}
-
 .price {
     font-family: 'OpenSans', sans-serif;
     font-size: 58px;
@@ -146,4 +125,33 @@
     padding: 25px;
     width: 100px;
     height: 120px;
+}
+
+a {
+    position: absolute;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    color: #299caf;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #ffffff;
+    border: none;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-top: 320px; 
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+a:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.2);
 }
