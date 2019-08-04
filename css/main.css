@@ -12,7 +12,7 @@
 
 .container {
     height: 700px;
-    width: 420px;
+    width: 450px;
     background-color: aliceblue;
     border-radius: 40px;
     margin: 15px 0 0 15px;
@@ -21,7 +21,7 @@
 
 .img_container {
     width: 100%;
-    height: 300px;
+    height: 43%;
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 .gradient:after {
     content: ""; 
     width: 100%;
-    height: 300px;    
+    height: 43%;    
     position: absolute; 
     background: transparent;
     background: linear-gradient(0deg, #ffffff 25%, #ffffff36 70%);
@@ -52,14 +52,18 @@
 }
 
 .paket {
-    text-align: center;
     font-family: 'intro', sans-serif;
     font-size: 28px;
     color: white;
-    margin: 210px 0 0 10px;
+    z-index: 1;
     position: absolute;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto 55px auto;
+    padding-left: 10px; 
 }
 
 .name-paket {
@@ -68,18 +72,26 @@
     font-size: 46px;
     color: #15a0ee;
     position: absolute;
-    margin: 245px 0 0 8px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto 10px auto;
+    z-index: 1;
+    padding-left: 9px; 
+    
  }
 
  .container-bottom {
-    position: relative;    
-    height: 400px;
+    position: absolute;    
+    height: 57%;
     background-color: #0ea7e4;
     border-radius: 0 0 40px 40px;
-    margin: 300px 0 0 0;
     background: linear-gradient(180deg, #33e0f5 0%, #02a1e3 100%);
+    bottom: 0;
+    right: 0;
+    left: 0;
  }
 
  .number {
@@ -93,13 +105,10 @@
 
  .container-bottom-text {
     width: 100%;
-    height: 35%;
     font-family: 'intro', sans-serif;
     font-size: 13px;
     color: white;
-    margin: 0 0 0 0;
     position: absolute;
-    margin: 0 0 0 0;
     display: flex;
  }
 
@@ -116,42 +125,41 @@
     font-size: 58px;
     color: #ffffff;
     position: absolute;
-    margin: 245px 0 0 0;
-    width: 100%;
+    width: 50%;
     text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto 86px auto;
 }
 
 .wrapper-item {
     padding: 25px;
     width: 100px;
-    height: 120px;
-}
-
-a {
-    position: absolute;
-    cursor: pointer;
-    padding: 10px 20px 10px 20px;
-    color: #299caf;
-    font-family: 'OpenSans', sans-serif;
-    font-size: 28px;
-    text-align: center;
-    border-radius: 40px;
-    background-color: #ffffff;
-    border: none;
-    transition: 0.3s;
-    text-decoration: none;
-    margin-top: 320px; 
 }
 
 .btn {
-    display: flex;
-    width: 100%;
-    height: 100%;
+    font-family: 'OpenSans', sans-serif;
     justify-content: center;
     position: relative;
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    color: #299caf;
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto 24px auto;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 28px;
 }
 
-a:hover {
+.btn:hover {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
     transform: scale(1.2);
 }
